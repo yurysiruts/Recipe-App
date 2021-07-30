@@ -1,1 +1,18 @@
-<p>Recipe Item Works!</p>
+<a href="#" 
+    class="list-group-item clearfix recipe"
+    (click)="onRecipeSelected()">
+    <div class="d-flex justify-content-sm-between">
+        <ul class="list-group d-flex">
+            <h4 class="list-group-item">{{ recipe.name }}</h4>
+            <p class="list-group-item">{{ recipe.desc }}</p>
+        </ul>
+
+        <span class="d-flex">
+            <img 
+                src="{{ recipe.imgPath }}" 
+                alt="{{ recipe.name }}" 
+                class="img-resposive d-flex justify-content-center" 
+                style="max-height: 100px; border-radius: 2px;">
+        </span>
+    </div>
+</a>
