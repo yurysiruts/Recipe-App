@@ -5,3 +5,17 @@
 .recipe:hover {
     background-color: rgb(245, 245, 245);
 }
+
+img {
+  max-height: 100px; 
+  max-width: 144px;
+  border-radius: 2px;
+}
+
+.list-group.d-flex {
+  max-width: 255px;
+}
+
+.list-group-item.active {
+  background-color: #496ca0;
+}
