@@ -37,6 +37,7 @@ export class RecipeDetailComponent implements OnInit {
 
   odDeleteRecipe() {
     this.recipeService.deleteRecipe(this.id);
+    this.router.navigate(['/recipes']);
   }
 
 }
