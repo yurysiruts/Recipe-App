@@ -4,9 +4,15 @@
   routerLinkActive="active"
   class="list-group-item clearfix recipe">
   <div class="d-flex justify-content-sm-between">
-      <ul class="list-group d-flex">
-          <h4 class="list-group-item">{{ recipe.name }}</h4>
-          <p class="list-group-item">{{ recipe.desc }}</p>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h4 style="margin: 0">{{ recipe.name }}</h4>
+        </li>
+        <li class="list-group-item">
+          <p style="margin: 0">{{ recipe.desc }}</p>
+        </li>
+          
+          
       </ul>
 
       <span class="d-flex">
